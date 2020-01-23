@@ -34,7 +34,7 @@ class timerSW : AppCompatActivity() {
 
         timerTask = object : TimerTask() {
             override fun run() {
-                time++
+                time++;
                 textView!!.setText(time)
             }
         }
