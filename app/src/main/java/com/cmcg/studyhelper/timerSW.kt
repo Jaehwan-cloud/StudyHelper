@@ -34,12 +34,12 @@ class timerSW : AppCompatActivity() {
 
         timerTask = object : TimerTask() {
             override fun run() {
-                time++;
+                time++
                 textView!!.setText(time)
             }
         }
 
-        timer.schedule(timerTask, 1, 1000)
+        timer.schedule(timerTask, 0, 1000)
     }
 
 

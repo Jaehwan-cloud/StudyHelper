@@ -87,7 +87,7 @@
         android:id="@+id/timerText"
         android:layout_width="340dp"
         android:layout_height="99dp"
-        android:layout_marginBottom="304dp"
+        android:layout_marginBottom="292dp"
         android:gravity="center"
         android:text="00.00.00"
         android:textSize="70sp"
